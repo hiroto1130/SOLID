@@ -14,12 +14,18 @@
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
-    <ClCompile Include="class.cpp">
+    <ClCompile Include="Calculate.cpp">
+      <Filter>class</Filter>
+    </ClCompile>
+    <ClCompile Include="Addition.cpp">
       <Filter>class</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="class.h">
+    <ClInclude Include="Calculate.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="Addition.h">
       <Filter>class</Filter>
     </ClInclude>
   </ItemGroup>
