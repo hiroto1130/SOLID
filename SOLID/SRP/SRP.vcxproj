@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{D666C706-3472-4860-981C-771BC5508104}</ProjectGuid>
-    <RootNamespace>SOLID</RootNamespace>
+    <ProjectGuid>{7D7D9145-AD84-4A32-8F9B-67B9E919F913}</ProjectGuid>
+    <RootNamespace>SRP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,11 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="class.cpp" />
+    <ClCompile Include="Addition.cpp" />
+    <ClCompile Include="Calculate.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="class.h" />
+    <ClInclude Include="Addition.h" />
+    <ClInclude Include="Calculate.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
